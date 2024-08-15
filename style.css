@@ -4,15 +4,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg,rgb(0, 0, 0), rgb(87, 87, 87));
-    }
-
-    section {
-        border: 10px solid rgb(0, 60, 255);
-        border-radius: 30px;
+    background: linear-gradient(50deg, red, blue);
     }
 
     h1 {
         font-style: italic;
         color: rgb(255, 0, 0);
+        border: 10px solid rgb(81, 255, 0);
+        border-radius: 20px;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 7px solid brown;
     }
