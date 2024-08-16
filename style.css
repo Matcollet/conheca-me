@@ -4,18 +4,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background: radial-gradient(circle, black, grey);
     }
 
     h1 {
         font-style: italic;
         color: rgb(255, 255, 255);
-        border: 10px solid rgb(81, 255, 0);
+        border: 8px solid brown;
         border-radius: 20px;
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        position: relative;
+        top: -20%;
+        left: -10%;
+        transform: translate(100%, 200%);
+        background-color: black;
     }
 
     p {
@@ -26,4 +27,5 @@
         border: 7px solid brown;
         border-radius: 7px;
         color: white;
+        background-color: black;
     }
