@@ -1,29 +1,61 @@
-* body {
+body {
     margin: 0;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    }
+    min-height: 100vh;
+    background: linear-gradient(to left, #ff7e5f , rgb(228, 148, 0));
+    border: 2px solid #000;
+}
 
-    h1 {
-        font-style: italic;
-        color: rgb(255, 255, 255);
-        border: 10px solid rgb(81, 255, 0);
-        border-radius: 20px;
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+h1 {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    border: 10px solid rgb(81, 255, 0);
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-    p {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border: 7px solid brown;
-        border-radius: 7px;
-        color: white;
+p {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border: 7px solid brown;
+    transform: scale();
+    font-size: 7mm;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    padding: 29px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: brilhoBorda 1.0s infinite alternate;
+}
+
+.image-container {
+    border: 5px solid #000; /* Adiciona uma borda de 5px de cor preta */
+    padding: 5px; /* Espaço entre a borda e a imagem */
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 17%;
+}
+
+.imagem-container img {
+    display: block;
+}
+
+@keyframes brilhoBorda {
+    0% {
+        box-shadow: 0 0 5px #fff, 0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 45px #ff00ff, 0 0 60px #ff00ff, 0 0 75px #ff00ff;
     }
+    100% {
+        box-shadow: 0 0 5px #fff, 0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 45px #ff00ff, 0 0 60px #ff00ff, 0 0 75px #ff00ff;
+    }
+}
