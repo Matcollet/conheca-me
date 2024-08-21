@@ -35,7 +35,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: brilhoBorda 1.0s infinite alternate;
 }
 
 .image-container {
@@ -49,13 +48,4 @@ p {
 
 .imagem-container img {
     display: block;
-}
-
-@keyframes brilhoBorda {
-    0% {
-        box-shadow: 0 0 5px #fff, 0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 45px #ff00ff, 0 0 60px #ff00ff, 0 0 75px #ff00ff;
-    }
-    100% {
-        box-shadow: 0 0 5px #fff, 0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 45px #ff00ff, 0 0 60px #ff00ff, 0 0 75px #ff00ff;
-    }
 }
