@@ -25,7 +25,7 @@ p {
     top: 46%;
     left: 73%;
     transform: translate(-50%, -50%);
-    border: 7px solid rgb(0, 0, 0);
+    outline: 7px solid rgb(0, 0, 0);
     transform: scale();
     font-size: 7mm;
     border-radius: 7px;
@@ -35,6 +35,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: borderSize 1.5s infinite;
 }
 
 .image-container {
@@ -44,8 +45,42 @@ p {
     position: absolute;
     top: 20%;
     left: 17%;
+    animation: rgbBorder 1.7s infinite;
 }
 
 .imagem-container img {
     display: block;
+}
+
+@keyframes rgbBorder {
+    0% {
+        border-color: rgb(222, 222, 255);
+    }
+    25% {
+        border-color: rgb(51, 0, 99);
+    }
+    50% {
+        border-color: rgb(0, 88, 69);
+    }
+    75% {
+        border-color: rgb(184, 156, 0);
+    }
+    100% {
+        border-color: rgb(222, 222, 255);
+    }
+}
+
+@keyframes borderSize {
+    0% {
+        outline-width: 7px;
+        outline-offset: 5px;
+    }
+    50% {
+        outline-width: 10px;
+        outline-offset: 14px;
+    }
+    100% {
+        outline-width: 7px;
+        outline-offset: 5px;
+    }
 }
