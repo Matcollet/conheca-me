@@ -5,14 +5,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to left, #ff7e5f , rgb(228, 148, 0));
+    background: linear-gradient(180deg, antiquewhite, black);
     border: 2px solid #000;
 }
 
 h1 {
     font-style: italic;
     color: rgb(0, 0, 0);
-    border: 10px solid rgb(81, 255, 0);
+    border: 10px solid rgb(150, 0, 0);
     border-radius: 20px;
     position: absolute;
     top: 10%;
@@ -22,10 +22,10 @@ h1 {
 
 p {
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 46%;
+    left: 73%;
     transform: translate(-50%, -50%);
-    border: 7px solid brown;
+    border: 7px solid rgb(0, 0, 0);
     transform: scale();
     font-size: 7mm;
     border-radius: 7px;
@@ -42,7 +42,7 @@ p {
     padding: 5px; /* Espaço entre a borda e a imagem */
     display: inline-block;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 17%;
 }
 
