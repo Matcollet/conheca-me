@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(180deg, antiquewhite, black);
+    background: linear-gradient(180deg, rgb(180, 171, 159), rgb(61, 57, 57));
     border: 2px solid #000;
 }
 
