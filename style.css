@@ -43,7 +43,7 @@ p {
     padding: 5px; /* Espaço entre a borda e a imagem */
     display: inline-block;
     position: absolute;
-    top: 20%;
+    top: 22%;
     left: 17%;
     animation: rgbBorder 1.7s infinite;
 }
