@@ -18,6 +18,7 @@ h1 {
     top: 7%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 40px;
 }
 
 p {
@@ -43,7 +44,7 @@ p {
     padding: 5px; /* Espaço entre a borda e a imagem */
     display: inline-block;
     position: absolute;
-    top: 22%;
+    top: 23%;
     left: 17%;
     animation: rgbBorder 1.7s infinite;
 }
