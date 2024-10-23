@@ -36,7 +36,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: borderSize 1.5s infinite;
+    animation: borderSize 1.0s infinite;
 }
 
 .image-container {
